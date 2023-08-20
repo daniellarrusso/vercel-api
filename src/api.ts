@@ -1,19 +1,21 @@
 import express, { Request, Response } from 'express';
+import cors from 'cors';
+import symbolsRoute from './routes/symbols';
 
 const app = express();
 const port = process.env.PORT || 8080;
 
-app.get('/', (_req: Request, res: Response) => {
-    return res.send('Express Typescript on Vercel 😤');
-});
+app.use(express.json());
+app.use(cors());
+app.use('/symbols', symbolsRoute);
 
-app.get('/ping', (_req: Request, res: Response) => {
-    return res.send('pong 🏓');
+app.get('/', (req: Request, res: Response) => {
+    res.send('Welcome to dashboard API 👻');
 });
 
 const connectApi = () =>
     app.listen(port, () => {
-        return console.log(`Server is listening on ${port}`);
+        console.log('API listening on port: ' + port);
     });
 
 export default connectApi;
