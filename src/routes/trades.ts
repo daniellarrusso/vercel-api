@@ -34,11 +34,12 @@ route.get('/:asset', async (req: Request, res: Response) => {
 
 route.post('/', async (req: Request, res: Response) => {
     try {
-        const doc = await new TradeModel(...req.body);
+        const doc = await new TradeModel({ ...req.body });
         await doc.save();
         res.status(200).send(doc);
     } catch (error) {
         if (error instanceof Error) res.status(400).send('Bad Request ' + error.message);
+        else res.status(500).send('Something went horribly wrong!');
     }
 });
 

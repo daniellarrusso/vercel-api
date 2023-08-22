@@ -43,13 +43,15 @@ route.get('/:asset', (req, res) => __awaiter(void 0, void 0, void 0, function* (
 }));
 route.post('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const doc = yield new trade_1.TradeModel(...req.body);
+        const doc = yield new trade_1.TradeModel(Object.assign({}, req.body));
         yield doc.save();
         res.status(200).send(doc);
     }
     catch (error) {
         if (error instanceof mongoose_1.Error)
             res.status(400).send('Bad Request ' + error.message);
+        else
+            res.status(500).send('Something went horribly wrong!');
     }
 }));
 route.delete('/:id', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
