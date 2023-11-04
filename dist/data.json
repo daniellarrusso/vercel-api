@@ -1,0 +1,212 @@
+[
+    {
+        "asset": "BTC",
+        "currency": "GBP",
+        "quantity": 2.2745772,
+        "cost": 46094.54,
+        "price": 13572.09,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "ETH",
+        "currency": "GBP",
+        "quantity": 16.6414,
+        "cost": 20518,
+        "price": 1232.93,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "MATIC",
+        "currency": "GBP",
+        "quantity": 2366,
+        "cost": 2772,
+        "price": 1.17,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "ADA",
+        "currency": "GBP",
+        "quantity": 3165,
+        "cost": 1614,
+        "price": 0.51,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "DOT",
+        "currency": "GBP",
+        "quantity": 154.1,
+        "cost": 2603,
+        "price": 16.89,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "SAND",
+        "currency": "GBP",
+        "quantity": 1632,
+        "cost": 2483,
+        "price": 1.52,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "CTSI",
+        "currency": "GBP",
+        "quantity": 2935,
+        "cost": 886,
+        "price": 0.3,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "AAVE",
+        "currency": "GBP",
+        "quantity": 8.4354,
+        "cost": 1910,
+        "price": 226.44,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "CKB",
+        "currency": "GBP",
+        "quantity": 132581.9948,
+        "cost": 1024,
+        "price": 0.0077,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "AVAX",
+        "currency": "GBP",
+        "quantity": 26.2454,
+        "cost": 1278,
+        "price": 48.71,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "LINK",
+        "currency": "GBP",
+        "quantity": 62.1297,
+        "cost": 615,
+        "price": 9.89,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "XRP",
+        "currency": "GBP",
+        "quantity": 729.5004,
+        "cost": 460,
+        "price": 0.63,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "SOL",
+        "currency": "GBP",
+        "quantity": 15.9285,
+        "cost": 1233,
+        "price": 77.43,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "ARB",
+        "currency": "GBP",
+        "quantity": 260.3394,
+        "cost": 245,
+        "price": 0.94,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "EGLD",
+        "currency": "GBP",
+        "quantity": 7.9985,
+        "cost": 277,
+        "price": 34.57,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "ALGO",
+        "currency": "GBP",
+        "quantity": 772.2345,
+        "cost": 614,
+        "price": 0.8,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "CAKE",
+        "currency": "GBP",
+        "quantity": 61.452,
+        "cost": 999,
+        "price": 16.25,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "ALPHA",
+        "currency": "GBP",
+        "quantity": 960.5977,
+        "cost": 1130,
+        "price": 1.18,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "POLK",
+        "currency": "GBP",
+        "quantity": 1229,
+        "cost": 1295,
+        "price": 1.05,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "CVNX",
+        "currency": "GBP",
+        "quantity": 3556.9495,
+        "cost": 268,
+        "price": 0.08,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    },
+    {
+        "asset": "LUNA",
+        "currency": "GBP",
+        "quantity": 85078.8488,
+        "cost": 216,
+        "price": 0.0025,
+        "side": "BUY",
+        "date": { "$date": "2023-05-18T00:00:00Z" },
+        "__v": 0
+    }
+]
